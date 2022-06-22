@@ -1,0 +1,49 @@
+@import url('http://fonts.cdnfonts.com/css/brush-hand-new');
+
+body, html {
+    margin:0;
+    background-color: #FCF9F3;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .app {
+    position: relative;
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 25%;
+    transform: translateY(-50%);
+  }
+  ::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+}
+h1 {
+  font-family: 'Brush Hand New', sans-serif;                                            
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+  background-color: #F2871E;
+  background-image: linear-gradient(45deg, #F2871E, #DD3631);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+p {
+  font-family: 'Brush Hand New', sans-serif;                                            
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
